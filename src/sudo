@@ -1,0 +1,24 @@
+The push refers to repository [docker.io/creativti/rotten-potatoes]
+942b006b5b52: Preparing
+7f2c2c007213: Preparing
+9a014e59a447: Preparing
+cc1ca108b84e: Preparing
+abbd1e0c6d6b: Preparing
+8dd62b771c62: Preparing
+2138286d3aea: Preparing
+537313a13d90: Preparing
+764055ebc9a7: Preparing
+8dd62b771c62: Waiting
+2138286d3aea: Waiting
+764055ebc9a7: Waiting
+537313a13d90: Waiting
+942b006b5b52: Layer already exists
+cc1ca108b84e: Layer already exists
+abbd1e0c6d6b: Layer already exists
+9a014e59a447: Layer already exists
+7f2c2c007213: Layer already exists
+8dd62b771c62: Layer already exists
+537313a13d90: Layer already exists
+2138286d3aea: Layer already exists
+764055ebc9a7: Layer already exists
+v1: digest: sha256:0f0318d828f29ae00c43f8389de9671198fd28e2fad6eb09c60f0d224af53acc size: 2208
