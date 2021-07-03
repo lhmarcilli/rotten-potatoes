@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
    name: movies
 spec:
-   replicas: 10
    selector:
        matchLabels:
            app: movies
@@ -14,9 +13,9 @@ spec:
        spec:
            containers:
              - name: movies
-               image: creativti/rotten-potatoes:v2
+               image: creativti/rotten-potatoes:v1
                ports:
-                 - containerPort: 5000
+                 - containerPort: 8080
                env:
                  - name: MONGODB_DB
                    value: admin
@@ -28,3 +27,10 @@ spec:
                    value: mongouser
                  - name: MONGODB_PASSWORD
                    value: mongopwd
+               resources:
+                   requests:
+                       cpu: "200m"
+                       memory: "32Mi"
+                   limits:
+                       cpu: "400m"
+                       memory: "64Mi"
