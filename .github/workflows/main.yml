@@ -41,7 +41,7 @@ jobs: # listagem dos jobs
             creativti/rotten-potatoes:${{ github.run_number }}
             
   Build-CD:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # agente (runner) que vao rodar o job
     needs: [Build-CI] # Torna este build dependente do Build-CI
     steps:
       - uses: actions/checkout@v2
